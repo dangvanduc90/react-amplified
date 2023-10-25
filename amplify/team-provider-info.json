@@ -16,10 +16,15 @@
         "reactamplified1d0fb369": {
           "deploymentBucketName": "amplify-reactamplified-dev-173041-deployment",
           "s3Key": "amplify-builds/reactamplified1d0fb369-62496955624a43386e42-build.zip"
+        },
+        "reactamplified25437aea": {
+          "deploymentBucketName": "amplify-reactamplified-dev-173041-deployment",
+          "s3Key": "amplify-builds/reactamplified25437aea-414c4267557351477246-build.zip"
         }
       },
       "api": {
-        "reactamplified": {}
+        "reactamplified": {},
+        "api322d18ec": {}
       },
       "auth": {
         "reactamplified7a3ccaeb": {}
