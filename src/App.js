@@ -15,7 +15,7 @@ function App({ signOut, user }) {
     const jwtToken = user.signInUserSession.idToken.jwtToken
     console.log(user, jwtToken)
 
-    const data = await API.post("api-sls", "/hello", {
+    const data = await API.post("Clone from DemoApi", "/hello", {
       headers: {
         Authorization: `Bearer ${jwtToken}`
       },
