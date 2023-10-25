@@ -12,16 +12,18 @@ function App({ signOut, user }) {
 
   const getUserData = async () => {
     const user = await Auth.currentAuthenticatedUser();
-    console.log(user)
+    const jwtToken = user.signInUserSession.idToken.jwtToken
+    console.log(user, jwtToken)
 
-    const data = await API.get("api-sls", "/getdata")
-      .then((response) => {
-        // Add your code here
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    const data = await API.post("api-sls", "/hello", {
+      headers: {
+        Authorization: `Bearer ${jwtToken}`
+      },
+      body: {
+        email: user.attributes.email,
+        sub: user.attributes.sub
+      }
+    });
 
     console.log(data)
   }
