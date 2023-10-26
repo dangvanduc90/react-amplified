@@ -24,6 +24,8 @@ function App({ signOut, user }) {
     <>
       <h1>Hello {user.username}</h1>
       <button onClick={getUserData}>getUserData</button>
+      <br />
+      <br />
       <button onClick={signOut}>Sign out</button>
     </>
   );
