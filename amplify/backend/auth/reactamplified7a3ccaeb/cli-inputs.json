@@ -62,7 +62,7 @@
     "hostedUIDomainName": "reactamplified8dda9f34-8dda9f34",
     "authProvidersUserPool": [],
     "hostedUIProviderMeta": "[]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://olongvien.online/\"],\"LogoutURLs\":[\"https://olongvien.online/\"]}",
-    "authProviders": []
+    "authProviders": [],
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://olongvien.online/\"],\"LogoutURLs\":[\"https://olongvien.online/\"]}"
   }
 }
